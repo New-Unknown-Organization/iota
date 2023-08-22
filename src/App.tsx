@@ -1,6 +1,7 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import { sendViaIOTAFirst } from "./iota-messaging/iota-message-example";
+// import { runIOTAWasm } from "./iota-messaging/official-example";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        {/* <button onClick={sendViaIOTAFirst}>Send message</button>
+        <button onClick={runIOTAWasm}>Run Wasm IOTA</button> */}
       </header>
     </div>
   );
