@@ -1,7 +1,7 @@
-import { AccountBuilder, ExplorerUrl, start } from "@iota/identity-wasm/web";
+import { AccountBuilder, ExplorerUrl, init } from "@iota/identity-wasm/web";
 
 const createIdentity = async () => {
-  await start();
+  await init();
 
   let builder = new AccountBuilder();
   let account = await builder.createIdentity();
